@@ -4,10 +4,11 @@
   "description": "Full stack authentication app",
   "main": "index.js",
   "scripts": {
-    "start": "cd \"exp 8 full stack/server\" && npm start",
-    "client": "cd \"exp 8 full stack/client\" && npm start",
-    "server": "cd \"exp 8 full stack/server\" && npm start",
-    "install-all": "npm install && cd \"exp 8 full stack/client\" && npm install && cd ../server && npm install"
+    "start": "cd server && npm start",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
   },
   "keywords": [],
   "author": "",
