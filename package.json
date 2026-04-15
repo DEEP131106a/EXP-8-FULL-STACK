@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-auth",
+  "version": "1.0.0",
+  "description": "Full stack authentication app",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd \"exp 8 full stack/server\" && npm start",
+    "client": "cd \"exp 8 full stack/client\" && npm start",
+    "server": "cd \"exp 8 full stack/server\" && npm start",
+    "install-all": "npm install && cd \"exp 8 full stack/client\" && npm install && cd ../server && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
