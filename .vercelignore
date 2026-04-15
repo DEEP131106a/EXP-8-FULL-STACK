@@ -1,3 +1,5 @@
-server
-node_modules
-.git
+server/
+node_modules/
+.git/
+exp\ 8\ full\ stack/
+
